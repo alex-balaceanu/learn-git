@@ -7,6 +7,42 @@ When you are working on a feature branch and want to merge it into the main bran
 
     bash
 
+git add .
+git commit -m "Your commit message"
+
+or
+
+bash
+
+git stash
+
+Switch to the Main Branch:
+
+    Ensure you are on the main branch.
+
+bashsdasasdas dasdawdadsadassdsddadaws
+
+git checkout main
+
+Pull Latest Changes from Main:
+
+    Fetch and pull the latest changes from the main branch to ensure your local main branch is up-to-date.
+
+bash
+
+git pull origin main
+
+Switch Back to the Feature Branch:
+
+    Switch back to your feature branch.
+
+bash
+
+git checkout feature-branch
+
+Merge Main into Feature Branch:
+
+    Merge the changes from the main branch into your feature branch.
 
 bash
 
@@ -20,7 +56,7 @@ Resolve Conflicts:
 
 Mark as Resolved:
 
-    After ressdadsdawdgdawcscxzwolving the conflicts, mark the files as resolved.
+    After resolving the conflicts, mark the files as resolved.
 
 bash
 
