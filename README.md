@@ -49,3 +49,47 @@ bash
     git push origin feature-branch
 
 Now, your feature branch includes both your changes and the changes from the main branch, and it's up-to-date with the latest main branch updates. This process ensures a smooth integration of your feature while resolving any conflicts that may arise.
+
+bash
+
+git checkout feature-branch
+
+Merge Main into Feature Branch:
+
+    Merge the changes from the main branch into your feature branch.
+
+bash
+
+git merge main
+
+If there are conflicting changes, Git will inform you about the conflicts.
+
+Resolve Conflicts:
+
+    Open the files with conflicts in your code editor. Git will mark the conflicting sections. Manually resolve the conflicts by editing the files to include the desired changes.
+
+Mark as Resolved:
+
+    After resolving the conflicts, mark the files as resolved.
+
+bash
+
+git checkout feature-branch
+
+Merge Main into Feature Branch:
+
+    Merge the changes from the main branch into your feature branch.
+
+bash
+
+git merge main
+
+If there are conflicting changes, Git will inform you about the conflicts.
+
+Resolve Conflicts:
+
+    Open the files with conflicts in your code editor. Git will mark the conflicting sections. Manually resolve the conflicts by editing the files to include the desired changes.
+
+Mark as Resolved:
+
+    After resolving the conflicts, mark the files as resolved.
