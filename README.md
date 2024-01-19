@@ -20,7 +20,7 @@ Resolve Conflicts:
 
 Mark as Resolved:
 
-    After resolving the conflicts, mark the files as resolved.
+    After ressdadsdawdgdawcscxzwolving the conflicts, mark the files as resolved.
 
 bash
 
